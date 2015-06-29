@@ -17,7 +17,7 @@ class Lesser
   
   function wp_head()
   {
-    $url = plugins_url("/lesser/less.php");
+    $url = plugins_url("/lesser/app/less.php");
     echo($this->stylesheet($url."?mode=common"));
     echo($this->stylesheet($url."?mode=frontend"));
   }

@@ -1,7 +1,7 @@
 === Lesser ===
 Contributors: benallfree
 Tags: kickstarter, indiegogo, ecommerce, shopping, preorder, credit card, crowdfunding
-Requires at least: 4.2.2
+Requires at least: 3.3.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
 License: GPLv2 or later
