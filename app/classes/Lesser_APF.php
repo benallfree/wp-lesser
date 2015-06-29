@@ -56,6 +56,7 @@ class Lesser_APF extends LesserAdminPageFramework {
   
   public function load_lesser_front_end_page( $oAdminPage ) 
   {
+    die('hi');
     $this->addSettingFields(
       array(    // Text Area
           'field_id'      => 'lesser_frontend',
