@@ -1,9 +1,9 @@
 <?php
 
-if(!defined('__DIR__')) define('__DIR__', dirname(__FILE__));
-
+require_once('lib/compat.php');
 if ( ! class_exists( 'AdminPageFramework' ) ) {
-  include_once( __DIR__ . '/apf/admin-page-framework.php' );
+  include_once( dirname(__FILE__) . '/apf/admin-page-framework.php' );
+  require_once('less/lessc.inc.php');
 }
 
 require_once('classes/Lesser.php');
