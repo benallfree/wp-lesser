@@ -9,15 +9,6 @@ if(!function_exists('q'))
   }  
 }
 
-if(!function_exists('dd'))
-{
-  function dd($val)
-  {
-    var_dump($val);
-    die;
-  }
-}
-
 if (!function_exists('http_response_code')) {
   function http_response_code($code = NULL) {
     if ($code !== NULL) {

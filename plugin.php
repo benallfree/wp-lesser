@@ -1,13 +1,14 @@
 <?php
-  
 /*
 Plugin Name: Lesser
-Plugin URI: http://benallfree.com/wp/lesser
+Plugin URI: https://wordpress.org/support/plugin/lesser
 Description: Manage custom CSS using LESS
 Version: 1.0.0
 Author: Ben Allfree
-Author URI: http://benallfree.com/wp
+Author URI: http://wp-results/plugins/lesser
 License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lesser
 */
 
 /*
