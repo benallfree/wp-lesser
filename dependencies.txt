@@ -1,0 +1,6 @@
+													PHP Version				WP Version
+Custom Code								5.2								3.0
+Admin Page Framework			5.2								4.0
+Less.php									5.2								N/A
+													-----------				----------
+													5.2								4.0
