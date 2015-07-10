@@ -7,7 +7,6 @@ class Lesser
     add_action('wp_enqueue_scripts', array($this, 'wp_enqueue_styles'), 98);
     add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'plugin_action_links' );
     add_action('admin_enqueue_scripts', array($this, 'admin_enqueue_scripts'), 98);
-    add_action('admin_print_styles-lesser_page_lesser_common_page', array())
   }
   
   function plugin_action_links( $links ) {
